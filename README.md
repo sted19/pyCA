@@ -28,3 +28,5 @@ docker-compose up
 ```
 
 The console will print the output of the programs and show the certificates that are exchanged. At the end of the execution, in the folders where each file.py is, you will find all keys and certificates used, along with CSR and CRL that have been produced.
+
+At the end of execution client<sub>1</sub> terminates, while client<sub>2</sub> and CA keep listening for incoming connections. Shut down them with ctrl+C if you need them to terminate.
