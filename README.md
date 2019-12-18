@@ -1,5 +1,5 @@
 # pyCA
-Demo of a CA (Certification Authority) signing certificates and revoking them (issuing a CRL).
+Demo of a CA (Certification Authority) signing certificates and revoking them (issuing a CRL). This demo uses Python with the package pyOpenSSL. Python scripts are executed in Docker containers.
 
 # Description 
 This program is composed of a CA and two clients, namely client<sub>1</sub> and client<sub>2</sub>. The execution is merely a simulation that can be summarized by the following points:
