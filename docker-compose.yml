@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+    client1:
+        build: ./client1
+        working_dir: /code
+        volumes:
+        -  ./client1:/code
+        
+    client2:
+        build: ./client2
+        working_dir: /code
+        volumes:
+        -  ./client2:/code
+
+    ca:
+        build: ./CA
+        working_dir: /code
+        volumes:
+          -  ./CA:/code
